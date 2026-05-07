@@ -10,13 +10,21 @@ public class WoodenBlock {
         sortTwoColor(A2);
         System.out.println(Arrays.toString(A2));
 
+//        Time complexity = T(n)=n⇒O(n)
+//        Space complexity O(1)
+
         String[] A3 = {"red", "blue", "green", "blue", "red", "green", "red", "red", "green"};
         sortThreeColor(A3);
         System.out.println(Arrays.toString(A3));
 
+//        Time complexity = T(n)=n⇒O(n)
+//        Space complexity O(1)
+
         String[] A4 = {"red", "yellow", "green", "blue", "red", "green", "yellow", "red", "green"};
         sortFourColor(A4);
         System.out.println(Arrays.toString(A4));
+//        Time complexity = T(n)=3T(n)⇒O(n)
+//        Space complexity O(1)
     }
 
     public static void sortTwoColor(String[] A) {
